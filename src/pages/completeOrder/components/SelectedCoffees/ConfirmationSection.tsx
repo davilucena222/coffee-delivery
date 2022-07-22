@@ -12,8 +12,6 @@ export function ConfirmationSection() {
   const cartTotal = DELIVERY_PRICE + cartItemsTotal;
 
   const formattedItemsTotal = formatMoney(cartItemsTotal);
-  // const formattedCartTotal = cartItemsTotal > 0 ? formatMoney(cartTotal) : 0;
-  // const formatDeliveryPrice = cartItemsTotal > 0 ? formatMoney(DELIVERY_PRICE) : 0;
   const formattedCartTotal = formatMoney(cartTotal);
   const formatDeliveryPrice = formatMoney(DELIVERY_PRICE);
 

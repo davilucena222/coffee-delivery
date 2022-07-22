@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface TitleTextProps {
-  color?: 'title' | 'subtitle' | 'text'; 
   size?: 'xl' | 'l' | 'm' | 's' | 'xs';
+  color?: 'title' | 'subtitle' | 'text'; 
   weight?: string | number; 
 }
 
@@ -21,7 +21,7 @@ export const TitleText = styled.h1<TitleTextProps>`
 `;
 
 export const RegularText = styled.p<RegularTextProps>`
-  color: ${({ theme, color }) => theme.colors[`base-${color ?? 'title'}`]};
+  color: ${({ theme, color }) => theme.colors[`base-${color ?? 'text'}`]};
   font-size: ${({ theme, size }) => theme.textSizes[`text-regular-${size ?? 'm'}`]};
   font-family: ${({ theme }) => theme.fonts.regular};
   line-height: 130%;

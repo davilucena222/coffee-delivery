@@ -39,10 +39,10 @@ export function CoffeeCartCard({ coffee }: CoffeeCartCardProps) {
           </RegularText>
           <ActionsContainer>
             <QuantityInput 
-              size="small" 
               onIncrease={handleIncrease}
               onDecrease={handleDecrease}
               quantity={coffee.quantity} 
+              size="small" 
             />
             <RemoveButton type="button" onClick={handleRemove}>
               <Trash size={16} />

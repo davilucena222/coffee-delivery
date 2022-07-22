@@ -18,7 +18,7 @@ export function CompleteOrderForm() {
         <SectionTitle 
           title="Endereço de Entrega"
           subtitle="Informe o endereço onde deseja receber o seu pedido"
-          icon={<MapPin color={colors['brand-yellow-dark']} />}
+          icon={<MapPin color={colors['brand-yellow-dark']} size={22} />}
         />
 
         <AddressForm />
@@ -28,7 +28,7 @@ export function CompleteOrderForm() {
         <SectionTitle 
           title="Pagamento"
           subtitle="O pagamento é feito na entrega. Escolha a forma que deseja pagar"
-          icon={<CurrencyDollar color={colors['brand-purple']} />}
+          icon={<CurrencyDollar color={colors['brand-purple']} size={22} />}
         />
 
         <PaymentMethodOptions />

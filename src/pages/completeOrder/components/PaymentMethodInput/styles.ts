@@ -10,6 +10,7 @@ export const PaymentMethodInputContainer = styled.div`
     ${({ theme }) => css`
       background: ${theme.colors["brand-purple-light"]};
       border-color: ${theme.colors["brand-purple"]};
+      
       &:hover {
         background: ${theme.colors["brand-purple-light"]};
       }

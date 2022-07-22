@@ -32,7 +32,7 @@ export function CoffeeCard({ coffee }: CoffeeCardProps) {
 
   const { addCoffeeToCart } = useCart();
 
-  function handleAddCart() {
+  function handleAddToCart() {
     const coffeeToAdd = {
       ...coffee,
       quantity
@@ -77,7 +77,7 @@ export function CoffeeCard({ coffee }: CoffeeCardProps) {
             onDecrease={handleDecrease}
             quantity={quantity}
           />
-          <button onClick={handleAddCart}>
+          <button onClick={handleAddToCart}>
             <ShoppingCart size={22} weight="fill" />
           </button>
         </AddCartWrapper>

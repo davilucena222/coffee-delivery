@@ -34,7 +34,10 @@ type ConfirmOrderFormData = OrderData;
 
 export function CompleteOrder() {
   const confirmOrderForm = useForm<ConfirmOrderFormData>({
-    resolver: zodResolver(confirmOrderFormValidationSchema)
+    resolver: zodResolver(confirmOrderFormValidationSchema),
+    defaultValues: {
+      paymentMethod: undefined,
+    }
   });
 
   const { cleanCart } = useCart();
@@ -55,12 +58,11 @@ export function CompleteOrder() {
     <FormProvider {...confirmOrderForm}>
       <CompleteOrderContainer
         className="container"
-        onClick={handleSubmit(handleConfirmOrder)}
+        onSubmit={handleSubmit(handleConfirmOrder)}
       >
         <CompleteOrderForm />
         <SelectedCoffees />
       </CompleteOrderContainer>
     </FormProvider>
-
   )
 }

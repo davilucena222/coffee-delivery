@@ -16,7 +16,7 @@ export function Intro() {
             <IntroTitle size="xl">
               Encontre o café perfeito para qualquer hora do dia
             </IntroTitle>
-            <RegularText size="l" color="subtitle" as="h3">
+            <RegularText as="h3" size="l" color="subtitle">
               Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora
             </RegularText>
           </section>

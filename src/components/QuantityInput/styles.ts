@@ -1,19 +1,17 @@
 import styled, { css } from "styled-components";
 
-interface QuantityInputProps {
+interface QuantityInputContainerProps {
   size?: 'medium' | 'small'
 }
 
-export const QuantityInputContainer = styled.div<QuantityInputProps>`
+export const QuantityInputContainer = styled.div<QuantityInputContainerProps>`
   flex: 1;
   background: ${({ theme }) => theme.colors['base-button']};
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 4px;
   border-radius: 6px;
-
-  padding: 0.5rem;
 
   input {
     text-align: center;

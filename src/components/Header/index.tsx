@@ -11,7 +11,7 @@ export function Header() {
     <HeaderContainer>
       <div className="container">
         <NavLink to="/">
-          <img src={logoCoffeDelivery} alt="" />
+          <img src={logoCoffeDelivery} />
         </NavLink>
 
         <HeaderButtonsContainer>

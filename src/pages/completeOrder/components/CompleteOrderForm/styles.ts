@@ -17,7 +17,7 @@ export const FormSectionContainer = styled(SectionBaseStyle)`
 export const AddressFormContainer = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: 12.5rem 17.5rem 3.75rem;
+  grid-template-columns: 12.5rem 17.25rem 3.75rem;
   column-gap: 0.75rem;
   row-gap: 1rem;
   grid-auto-flow: dense;

@@ -6,11 +6,10 @@ export const CoffeeCardContainer = styled.div`
   background: ${({ theme }) => theme.colors['base-card']};
   border-radius: 6px 36px 6px 36px;
   padding: 1.25rem;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-top: 0;
   text-align: center;
 
   img {
@@ -44,8 +43,8 @@ export const Tags = styled.div`
 export const Name = styled(TitleText).attrs({
   size: 's',
   color: 'subtitle',
-  weight: '700'
 })`
+  font-weight: '700';
   margin-bottom: 0.5rem;
 `;
 

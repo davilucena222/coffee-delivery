@@ -46,7 +46,7 @@ export function OrderConfirmed() {
             iconBg={colors['brand-purple']}
             text={
               <RegularText>
-                Entrega em <strong>{state.street}, {state.number}</strong>
+                Entrega em <strong>{state.street},</strong> {state.number}
                 <br />
                 {state.district} - {state.city}, {state.uf}
               </RegularText>

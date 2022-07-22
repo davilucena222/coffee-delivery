@@ -6,6 +6,7 @@ import { TitleText } from "../../../../components/Typography";
 export const IntroContainer = styled.section`
   width: 100%;
   height: 34rem;
+
   background: ${({ theme }) => `url(${introBackgroundImage}) no-repeat center,
       linear-gradient(
         0deg,
@@ -21,6 +22,7 @@ export const IntroContainer = styled.section`
 `;
 
 export const IntroContent = styled.div`
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;

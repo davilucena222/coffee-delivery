@@ -13,6 +13,7 @@ export const HeaderContainer = styled.header`
   z-index: 5;
 
   > div {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +41,6 @@ export const HeaderButton = styled.button<HeaderButtonProps> `
   border: none;
   padding: 0 0.5rem;
   position: relative;
-  font-size: ${({ theme }) => theme.textSizes['text-regular-s']};
   cursor: inherit;
 
   span {
@@ -57,6 +57,8 @@ export const HeaderButton = styled.button<HeaderButtonProps> `
     font-size: 0.75rem;
     font-weight: 700;
   }
+
+  font-size: ${({ theme }) => theme.textSizes['text-regular-s']};
 
   ${({ variant, theme }) => css`
     background: ${theme.colors[`brand-${variant}-light`]};
