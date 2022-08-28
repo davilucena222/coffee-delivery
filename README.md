@@ -1,7 +1,8 @@
 # 🔖 Coffee Delivery
 
-(image 1)
-(image 2)
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/56702492/187085739-436cebd4-cced-4feb-bec4-09b927bfab64.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/56702492/187085757-84409c11-5f03-4b4c-82e8-c4de3ec15b4c.png">
+
 
 # 🔧 Tecnologies
 
@@ -26,6 +27,8 @@
 
   Come on, take a look at Coffe Delivery, order yours now and enjoy the best coffee.
 </p>
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/56702492/187085841-97f60e56-7d0d-44ce-9531-44cb0933a210.png">
 
 # 🚀 Features
 
