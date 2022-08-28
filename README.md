@@ -25,7 +25,7 @@
 
   Inform your address, choice what method payment is better for you, confirm your order and wait for the best coffee ever.
 
-  Come on, take a look at Coffe Delivery, order yours now and enjoy the best coffee.
+  Come on, take a look at <a href="https://coffee-delivery-pi.vercel.app/">Coffe Delivery</a>, order yours now and enjoy the best coffee.
 </p>
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/56702492/187085841-97f60e56-7d0d-44ce-9531-44cb0933a210.png">
